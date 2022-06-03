@@ -1,0 +1,26 @@
+.GameContentWrap {
+    display: flex;
+    gap: 5px;
+}
+
+.GameImage p{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
+
+.GameContentInfo p {
+    color: var(--text-color);
+}
+
+.GameScore {
+    padding-top: 10px;
+}
+
+.GameScore span{
+    font-family: var(--heading-font-family);
+    border-radius: 50%;
+    color: #fff;
+    background-color: var(--button-color);
+    padding: 10px 15px;
+}

@@ -1,0 +1,38 @@
+.ContactFormWrap {
+    padding: 10px;
+    background-color: #30336b;
+}
+
+.ContactInputFeild label {
+    text-align: left;
+    font-family: var(--body-font-family);
+}
+
+.ContactInputFeild input[type="text"] {
+    width: 100%;
+    height: 30px;
+    background-color: var(--button-color);
+    border: none;
+}
+
+.MessageAreaWrap textarea{
+    background-color: var(--button-color);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    border: none;
+}
+
+.ContactFormBtn {
+    text-align: right;
+    padding: 10px 0px;
+}
+
+.ContactFormBtn button {
+    font-family: var(--body-font-family);
+    background-color: var(--button-color);
+    border: none;
+    padding: 5px 20px;
+    color: #fff;
+}
