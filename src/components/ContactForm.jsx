@@ -7,15 +7,15 @@ const ContactForm = () => {
       <Container>
         <Row>
           <Col>
-          <div>
-            <h2>Get In Touch</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Eaque animi ratione nisi consectetur eius numquam. 
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Hic accusantium, consequuntur possimus ex illo modi.
-            </p>
-          </div>
+              <div className={styles.TopContent}>
+                  <h2>Get In Touch</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eaque animi ratione nisi consectetur eius numquam. 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Hic accusantium, consequuntur possimus ex illo modi.
+                  </p>
+              </div>
           </Col>
         </Row>
         <Row className={styles.ContactFormWrap}>
@@ -28,7 +28,7 @@ const ContactForm = () => {
           <Col md={6}>
             <div className={styles.ContactInputFeild}>
               <label>Email</label> <br />
-              <input type="text" />
+              <input type="email" />
             </div>
           </Col>
           <Col md={12}>

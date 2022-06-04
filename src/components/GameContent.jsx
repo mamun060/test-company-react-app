@@ -6,11 +6,11 @@ const GameContent = () => {
     <Fragment>
         <div className={styles.GameContentWrap}>
           <div className={styles.GameImage}>
-            <p></p>
           </div>
           <div className={styles.GameContentInfo}>
-            <h5>Game Title</h5>
-            <span>Release Date:  DD/MM/YY</span>
+            <h4>Game Title
+             <br /> <span>Release Date:  DD/MM/YY</span>
+            </h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Voluptatibus velit beatae quia totam nemo nihil quibusdam.

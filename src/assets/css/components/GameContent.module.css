@@ -1,12 +1,28 @@
 .GameContentWrap {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     gap: 5px;
+    background-color: #0E192B;
+    margin-bottom: 10px;
+    padding-right: 10px;
 }
 
-.GameImage p{
-    width: 100px;
-    height: 100px;
+.GameImage {
+    width: 180px;
+    height: 120px;
     background-color: #000;
+}
+
+.GameContentInfo h4 {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-family: var(--heading-font-family);
+}
+.GameContentInfo h4 span{
+    font-size: 0.7rem;
+    color: var(--text-color);
+    font-family: var(--heading-font-family);
 }
 
 .GameContentInfo p {
